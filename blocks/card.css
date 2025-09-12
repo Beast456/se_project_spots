@@ -12,6 +12,7 @@
 }
 
 .card__content {
+  margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,6 +31,8 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
+  hover: 100%;
 }
 
 @media screen and (max-width: 627px) {

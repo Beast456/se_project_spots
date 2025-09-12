@@ -6,6 +6,7 @@
 }
 
 .profile__avatar {
+  border-radius: 8px;
   width: 190px;
   height: 190px;
   margin-right: 20px;
@@ -45,6 +46,7 @@
 }
 
 .profile__edit-btn {
+  cursor: pointer;
   padding: 0px;
   display: flex;
   gap: 8px;
@@ -52,9 +54,11 @@
   background-color: transparent;
   border: none;
   margin-top: auto;
+  hover: 100px;
 }
 
 .profile__add-btn {
+  cursor: pointer;
   padding-top: 18px;
   padding-bottom: 18px;
   padding-left: 18px;
@@ -66,6 +70,7 @@
   color: rgba(252, 245, 229, 1);
   border: none;
   border-radius: 8px;
+  hever: 100px;
 }
 
 @media screen and (max-width: 627px) {
