@@ -11,14 +11,8 @@
   overflow: hidden;
 }
 
-.card__content {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .card__description {
+  margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +33,11 @@
 }
 
 @media screen and (max-width: 627px) {
-  .card__image {
-    height: 288px;
+  .cards {
+    padding-bottom: 20px;
+  }
+  .cards__list {
+    grid-template-columns: repeat(auto-fit, 288px);
+    gap: 20px;
   }
 }
