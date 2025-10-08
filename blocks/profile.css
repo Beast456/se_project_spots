@@ -64,6 +64,7 @@
 }
 
 .profile__add-btn {
+  width: 149px;
   cursor: pointer;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -79,7 +80,7 @@
 }
 
 .profile__add-btn:hover {
-  opacity: 80%;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 627px) {

@@ -28,16 +28,21 @@
   cursor: pointer;
 }
 
+.card__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 500;
+  color: rgba(33, 33, 33, 1);
+  max-width: 353px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .card__like-btn :hover {
   opacity: 100%;
 }
 
 @media screen and (max-width: 627px) {
-  .cards {
-    padding-bottom: 20px;
-  }
-  .cards__list {
-    grid-template-columns: repeat(auto-fit, 288px);
-    gap: 20px;
-  }
 }
