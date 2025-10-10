@@ -40,15 +40,18 @@
   overflow: hidden;
 }
 
-.card__like-btn :hover {
+.card__like-btn:hover {
   opacity: 100%;
 }
 
-@media screen and (max-width: 627px) { .card__image { height: 288px;
-}
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 288px;
+  }
 
-.card__title {
-  max-width: 235px;
-  font-size: 16px;
-  line-height: 1;
+  .card__title {
+    max-width: 235px;
+    font-size: 16px;
+    line-height: 1;
+  }
 }
