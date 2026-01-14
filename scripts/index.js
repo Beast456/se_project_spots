@@ -2,7 +2,7 @@ const editProfileBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 
-const editProfileForm = editProfileModal.querySelector("modal__form");
+const editProfileForm = editProfileModal.querySelector(".modal__form");
 const editProfileDescriptionInput = editProfileModal.querySelector(
   "#profile-description-input"
 );
@@ -41,3 +41,13 @@ editProfileBtn.addEventListener("click", function () {
     newPostModal.classList.remove("modal_is-opened");
   });
 }
+newPostForm.addEventListener("submit", function (evt) {
+  evt.preventDefault(); // Prevents the page from refreshing
+
+  // Log the values to console
+  console.log("Image Link:", imageLinkInput.value);
+  console.log("Caption:", captionInput.value);
+
+  // Close the modal
+  newPostModal.classList.remove("modal_is-opened");
+});
